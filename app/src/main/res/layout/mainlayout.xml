@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/ourmain"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="246dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/textView4"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.32" />
+
+    <ExpandableListView
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:id="@+id/lvExp"
+        android:layout_gravity="center_horizontal" />
+
+
+
+    <com.skyfishjy.library.RippleBackground
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_gravity="center"
+
+        android:id="@+id/content"
+        app:rb_color="#0099CC"
+        app:rb_radius="32dp"
+        app:rb_rippleAmount="4"
+        app:rb_duration="3000"
+        app:rb_scale="6"
+        android:layout_weight="0.17">
+        <ImageButton
+            android:id ="@+id/push_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher"
+            android:scaleType="fitCenter"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:background="@drawable/round_shape"
+            android:padding="15dp"
+            android:layout_weight="0.32"
+            />
+
+    </com.skyfishjy.library.RippleBackground>
+
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Concepts in chname"
+        android:id="@+id/textView5"
+        android:layout_weight="0.12"
+        android:textSize="25sp"
+        android:paddingLeft="15dp"
+
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:id="@+id/scrollView"
+android:layout_gravity="bottom"
+        >
+
+        <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/listView"
+            android:choiceMode="singleChoice" />
+    </ScrollView>
+
+</LinearLayout>

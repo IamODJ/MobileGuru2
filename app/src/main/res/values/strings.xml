@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">MobileGuru</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+    <string name="kws_caption">To start demonstration say \"oh mighty computer\".</string>
+    <string name="menu_caption">Say \"digits\", \"forecast\" or \"phones\" to choose the grammar, language model or phonetic decoder example.</string>
+    <string name="digits_caption">To try recognition of digits: say something like \"one two three four five\".</string>
+    <string name="forecast_caption">To try recognition of a weather forecast like \"sunny spells on Wednesday\".</string>
+    <string name="phone_caption">To try phonetic recognition say anything.</string>
+    <!-- Navigation Drawer menu labels -->
+    <string name="nav_home">Home</string>
+    <string name="nav_photos">Photos</string>
+    <string name="nav_movies">Movies</string>
+    <string name="nav_notifications">Notifications</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_about_us">About Us</string>
+    <string-array name="chemistry">
+        <item>"1. The Solid State"</item>
+        <item>"2. Solutions"</item>
+        <item>"3. Electrochemistry"</item>
+        <item>"4. Chemical Kinetics"</item>
+        <item>"5. Surface Chemistry"</item>
+        <item>"6. General Principles and Processes of Isolation of Elements"</item>
+        <item>"7. The p-Block Elements"</item>
+        <item>"8. The d and f Block Elements"</item>
+        <item>"9. Coordination Compounds"</item>
+        <item>"10. Haloalkanes and Haloarenes"</item>
+        <item>"11. Alcohols, Phenols and Ethers"</item>
+        <item>"12. Aldehydes, Ketones and Carboxylic Acids"</item>
+        <item>"13. Amines"</item>
+        <item>"14. Biomolecules"</item>
+        <item>"15. Polymers"</item>
+        <item>"16. Chemistry in Everyday life"</item>
+    </string-array>
+
+    <string-array name="btech">
+        <item>"1. Recombinant DNA Technology"</item>
+        <item>"2. Protein Structure and Engineering"</item>
+        <item>"3. Genomics and Bioinformatics"</item>
+        <item>"4. Microbial Culture and Applications"</item>
+        <item>"5. Plant Cell Culture and Applications"</item>
+        <item>"6. Animal Cell Culture and Applications"</item>
+    </string-array>
+
+
+    <!-- Toolbar titles when navigation menu item is selected -->
+    <string-array name="nav_item_activity_titles">
+        <item>Home</item>
+        <item>Photos</item>
+        <item>Movies</item>
+        <item>Notifications</item>
+        <item>Settings</item>
+    </string-array>
+
+    <string name="activity_title_about_us">About Us</string>
+    <string name="activity_title_privacy_policy">Privacy Policy</string>
+    <string name="action_clear_all">Clear All</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_mark_all_read">Mark All as Read</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_downloadpage">downloadpage</string>
+    <string name="title_activity_howtouse">howtouse</string>
+    <string name="title_activity_privacypol">privacypol</string>
+    <string name="title_activity_aboutus">aboutus</string>
+    <string name="title_activity_abtus">abtus</string>
+
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="dialog_title">Dialog setup:</string>
+    <string name="footer">Footer</string>
+    <string name="header">Header</string>
+    <string name="header_title">Your title</string>
+    <string name="header_sample">SAMPLE HEADER</string>
+    <string name="footer_button_close">CLOSE</string>
+    <string name="footer_button_confirm">CONFIRM</string>
+    <string name="footer_sample">SAMPLE FOOTER</string>
+    <string name="button_bottom">Bottom</string>
+    <string name="button_center">Center</string>
+    <string name="button_top">Top</string>
+    <string name="google_plus_title">Google Plus</string>
+    <string name="google_maps_title">Maps</string>
+    <string name="google_messenger_title">Messenger</string>
+    <string name="question">Do you like Dialog Plus?</string>
+    <string name="button_like">I like it</string>
+    <string name="button_love">I love it</string>
+    <string name="view_holder">View Holder</string>
+    <string name="list_holder">List Holder</string>
+    <string name="grid_holder">Grid Holder</string>
+    <string name="show_header">Show header</string>
+    <string name="show_footer">Show footer</string>
+    <string name="title_activity_cpsir">cpsir</string>
+
+    <string-array name="bt0">
+        <item>Alkaline Phosphatase</item>
+        <item>Annealing </item>
+        <item>Automated Sequencing</item>
+        <item>Bacterial Artificial Chromosome / B A C</item>
+        <item>Bacteriophage </item>
+        <item>Biolistics / Gene Gun</item>
+        <item>Blue White Screening</item>
+        <item>C D N A</item>
+        <item>Clone</item>
+        <item>Competence </item>
+        <item>Cosmid </item>
+        <item>D N A Sequencing</item>
+        <item>D N A Fingerprinting </item>
+        <item>D N A Library</item>
+        <item>D N A Probe </item>
+        <item>D N A Transfection</item>
+        <item>Electroporation  </item>
+        <item>Gene Cloning </item>
+        <item>Gene Therapy </item>
+        <item>Genetic Engineering </item>
+        <item>Genetic Library </item>
+        <item>Genomic D N A</item>
+        <item>G R A S </item>
+        <item>Host Cells</item>
+        <item>Insertional Inactivation</item>
+        <item>Liposomes</item>
+        <item>Marker Gene  </item>
+        <item>Microinjection</item>
+        <item>Multiple Cloning Site /  M C S  /  Polylinker</item>
+        <item>Mutation</item>
+        <item>Northern Blotting</item>
+        <item>Northern Hybridization </item>
+        <item>Oligo nucleotide   </item>
+        <item>Plasmid </item>
+        <item>Polymerase Chain Reaction</item>
+        <item>Primer </item>
+        <item>Probe </item>
+        <item>Recombinant D N A Technology  </item>
+        <item>Replica Plating</item>
+        <item>Restriction Endonuclease </item>
+        <item>Reverse Transcriptase</item>
+        <item>R F L P </item>
+        <item>Shuttle Vectors </item>
+        <item>Site Directed Mutagenesis </item>
+        <item>Southern Hybridization </item>
+        <item>Transformation </item>
+        <item>Y A C</item>
+        <item>Vector</item>
+        <item>Molecular Pharming</item>
+        <item>Agarose Gel Electrophoresis</item>
+    </string-array>
+
+    <string-array name="bt1">
+        <item>2 D Gel Electrophoresis</item>
+        <item>Alcalase</item>
+        <item>Aqueous Two Phase Partition</item>
+        <item>Autoradiography </item>
+        <item>B C A A  / Branched Chain Amino Acid</item>
+        <item>Biological Value / B V</item>
+        <item>Catalytic Triad</item>
+        <item>Characterisation Of Proteins</item>
+        <item>Charge Relay System</item>
+        <item>Chromatography  </item>
+        <item>Directed Sequencing Of Bacterial Artificial Chromosome  Contigs</item>
+        <item>Downstream Processing</item>
+        <item>E S I </item>
+        <item>Essential Amino Acid Profile</item>
+        <item>Expressed Sequence Tags / E S T</item>
+        <item>Factor 9</item>
+        <item>Factor 8</item>
+        <item>Functional Genomics</item>
+        <item>Functional Non Catalytic Proteins</item>
+        <item>Gene Prediction And Counting</item>
+        <item>Glucose Isomerase</item>
+        <item>Glutathione / Gamma Glutamyl Cysteinyl Glycine </item>
+        <item>Hexokinase</item>
+        <item>Hydrogen Bond</item>
+        <item>Hydrophobic Interaction</item>
+        <item>I E F / Iso Electric Focussing</item>
+        <item>Interferon</item>
+        <item>Ionic Bond</item>
+        <item>Isoelectric Point</item>
+        <item>Kappa Casein</item>
+        <item>MALDI / Matrix Assisted Laser Desorption Ionisation</item>
+        <item>Mass Spectrometer</item>
+        <item>Mass Spectrometry</item>
+        <item>Microinjection </item>
+        <item>M N  Nuclease</item>
+        <item>Molecular Pharming </item>
+        <item>Neutraceutical Proteins</item>
+        <item>Peptide Mapping / Protein Finger Printing</item>
+        <item>Primary Structure</item>
+        <item>Prions</item>
+        <item>Pro Biotic</item>
+        <item>Protein Engineering </item>
+        <item>Proteome </item>
+        <item>Proteomics  </item>
+        <item>Quarternary Structure</item>
+        <item>Random Shotgun Sequencing</item>
+        <item>Salt Bridges</item>
+        <item>S D S Page </item>
+        <item>Secondary Structure</item>
+        <item>Structural Genomics</item>
+        <item>Thalassaemia</item>
+        <item>Tertiary Structure</item>
+        <item>T Lymphocytes  / T Cells</item>
+        <item>T P A  /  Tissue Plasminogen Activator</item>
+        <item>Van Der Waals Forces</item>
+        <item>Whole Genome Shotgun Strategy</item>
+        <item>Xenobiotics</item>
+        <item>Zymogens</item>
+    </string-array>
+
+    <string-array name="bt2">
+        <item>Bioinformatics</item>
+        <item>Blast </item>
+        <item>Chronic Mylogenous Leukemia /  C M L</item>
+        <item>Contigs</item>
+        <item>Curator</item>
+        <item>Database Retrieval Tools</item>
+        <item>E B I </item>
+        <item>E M B L / European Molecular Biology Laboratory</item>
+        <item>Entrez  </item>
+        <item>E S T </item>
+        <item>Expression Proteomics</item>
+        <item>Fish / Fluorescence In Situ Hybridization</item>
+        <item>Functional Proteomics</item>
+        <item>Gene Bank </item>
+        <item>Gene Mark</item>
+        <item>Genetic Maps </item>
+        <item>Genome </item>
+        <item>Genomics </item>
+        <item>Genscan</item>
+        <item>G S T </item>
+        <item>Homologene</item>
+        <item>Human Genome Project / H G P</item>
+        <item>Humulin  </item>
+        <item>Hybridization </item>
+        <item>In Situ Hybridisation </item>
+        <item>Interleukins </item>
+        <item>Microarray </item>
+        <item>N B R F </item>
+        <item>N C B I </item>
+        <item>Nick Translation</item>
+        <item>N I H</item>
+        <item>Oncogene</item>
+        <item>PALI Database / P A L I Database </item>
+        <item>PAM / Point Accepted Mutation </item>
+        <item>Paralogs</item>
+        <item>P D B / Protein Database</item>
+        <item>Philadelphia Chromosome</item>
+        <item>P I T C  </item>
+        <item>Random Shotgun Sequencing</item>
+        <item>Reference Sequence  Database</item>
+        <item>Shot Gun Approach </item>
+        <item>S N P Profile / S N P Map</item>
+        <item>S N P /  Single Nucleotide Polymorphism</item>
+        <item>Structural Proteomics</item>
+        <item>Taxonomy Browser</item>
+        <item>Unigene</item>
+        <item>Uniprot K B / U P K B</item>
+    </string-array>
+
+    <string-array name="bt3">
+        <item>Abiotic Stress Tolerance  </item>
+        <item>Aerobe</item>
+        <item>Antifoaming Agents</item>
+        <item>A T C C </item>
+        <item>Baffle Flask</item>
+        <item>Baker’s Yeast</item>
+        <item>Batch Culture </item>
+        <item>Biochemical Oxygen Demand / B O D</item>
+        <item>Biomass</item>
+        <item>Biopesticides </item>
+        <item>Bioprocess Technology  </item>
+        <item>Bioreactor  </item>
+        <item>Bioremediation </item>
+        <item>Brewer’s  Yeast </item>
+        <item>Broth </item>
+        <item>Chemostat</item>
+        <item>Continuous Culture </item>
+        <item>Cryopreservation / Storage In Liquid Nitrogen </item>
+        <item>Cryoprotectant </item>
+        <item>Culture Collections Centers</item>
+        <item>Culture Medium </item>
+        <item>Culture</item>
+        <item>Cytotoxicity </item>
+        <item>Diazotrophs </item>
+        <item>D M S O  </item>
+        <item>Doubling Time</item>
+        <item>Enrichment Technique</item>
+        <item>Exponential Phase  </item>
+        <item>Fed Batch Culture</item>
+        <item>Fermentation </item>
+        <item>Fermentors / Bioreactors</item>
+        <item>Generation Time / Doubling Time </item>
+        <item>Good Microbiological Practices / G M P</item>
+        <item>G R A S </item>
+        <item>G S T</item>
+        <item>Heterologous</item>
+        <item>High Throughput </item>
+        <item>Homogenation</item>
+        <item>Inclusion Bodies </item>
+        <item>Lyophilisation</item>
+        <item>Metagenome</item>
+        <item>Metagenomics</item>
+        <item>M T C C</item>
+        <item>Mutation Selection</item>
+        <item>N C I B</item>
+        <item>Nutrient Media / Nutritive Medium</item>
+        <item>Pichia Pastoris</item>
+        <item>Pilot Plant</item>
+        <item>Scale Up  </item>
+        <item>Single Cell Protein /  S C P</item>
+        <item>Sparger </item>
+        <item>Specific Growth Rate</item>
+        <item>Stirred Tank Fermenter </item>
+        <item>Storage On Agar</item>
+        <item>Strain Enrichment</item>
+        <item>Strain Isolation</item>
+        <item>Strain Preservation</item>
+        <item>Sub Culturing</item>
+        <item>Turbidostat</item>
+        <item>Ways To Measure Microbial Growth</item>
+    </string-array>
+
+    <string-array name="bt4">
+        <item>Abiotic Stress Tolerance</item>
+        <item>Agrobacterium Tumefaciens </item>
+        <item>Antisense Therapy  </item>
+        <item>Artemicin</item>
+        <item>Artificial Seed</item>
+        <item>Auxins </item>
+        <item>Azadiractin</item>
+        <item>Bacillus Thuringiensis</item>
+        <item>Bebeerine</item>
+        <item>Biodegradable Plastics</item>
+        <item>Biotic Stress Tolerance  </item>
+        <item>B T Genes</item>
+        <item>B T Plants </item>
+        <item>Callus </item>
+        <item>Callus Culture</item>
+        <item>Capsaicin</item>
+        <item>Cell Culture </item>
+        <item>Cell Suspension Cultures</item>
+        <item>Chemical Mediated Gene Transfer</item>
+        <item>Co Cultivation</item>
+        <item>Cybrid</item>
+        <item>Cybridization </item>
+        <item>Cytokines  </item>
+        <item>Delayed Fruit Ripening</item>
+        <item>Digoxin</item>
+        <item>Edible Vaccines </item>
+        <item>Embryo Rescue </item>
+        <item>Embryo Transfer </item>
+        <item>Encapsulation</item>
+        <item>Explant</item>
+        <item>Explant Culture</item>
+        <item>Flavr Savr / Flavour Saver</item>
+        <item>Fungi And Bacteria Resistance</item>
+        <item>Fusogen </item>
+        <item>Gametoclonal Variation</item>
+        <item>Germplasm</item>
+        <item>Golden Rice</item>
+        <item>Haploids </item>
+        <item>Herbicide Tolerance</item>
+        <item>Heterokaryons</item>
+        <item>In Vitro Gene Banks</item>
+        <item>In Vitro Plant Germplasm Conservation </item>
+        <item>In Vivo Gene Bank  </item>
+        <item>Larkin And Scowcroft</item>
+        <item>Male Sterility</item>
+        <item>Mass Cell Culture</item>
+        <item>Meristem </item>
+        <item>Metabolic Engineering</item>
+        <item>Micro Propagation</item>
+        <item>Molecular Farming</item>
+        <item>M S Medium</item>
+        <item>Organ Culture  </item>
+        <item>Organelle Transfer / Organelle Uptake</item>
+        <item>Organogenesis</item>
+        <item>Parasexual Hybridisation</item>
+        <item>P E G </item>
+        <item>Pest Resistance</item>
+        <item>Phytoalexins </item>
+        <item>Pomato</item>
+        <item>P R Proteins</item>
+        <item>Primary Metabolites</item>
+        <item>Protoplast Culture</item>
+        <item>Protoplast Fusion</item>
+        <item>Quinine</item>
+        <item>Round Up</item>
+        <item>Secondary Metabolite  </item>
+        <item>Shikonin</item>
+        <item>Somaclonal Variation </item>
+        <item>Somatic Cell</item>
+        <item>Somatic Embryogenesis </item>
+        <item>Somatic Hybrids </item>
+        <item>Stem Cells</item>
+        <item>Suspension Cultures  </item>
+        <item>Taxol</item>
+        <item>T D N A </item>
+        <item>Ti Plasmid </item>
+        <item>Tissue Culture </item>
+        <item>Totipotent </item>
+        <item>Transgene Analysis</item>
+        <item>Transgenic </item>
+        <item>Transplantation</item>
+        <item>Triploids</item>
+        <item>Virus Resistance</item>
+        <item>Virus Free Plants</item>
+
+    </string-array>
+
+    <string-array name="bt5">
+        <item>Adherence</item>
+        <item>Adult Stem Cells</item>
+        <item>Chimeric Mouse</item>
+        <item>C O 2 Bicarbonate Buffer</item>
+        <item>C O 2 Incubator  </item>
+        <item>Contact Inhibition</item>
+        <item>Continuous Cell Lines </item>
+        <item>Embryonic Stem Cells / E S Cells </item>
+        <item>Enzyme Linked Immunosorbent Assay / Elisa</item>
+        <item>Erythropoietin / E P O</item>
+        <item>F B S</item>
+        <item>Finite Cell Lines </item>
+        <item>F S H</item>
+        <item>Gene Knock Outs / Knock Out Mouse </item>
+        <item>George Gay</item>
+        <item>Hela Cells  </item>
+        <item>H E R 2 + / H E R 2 Positive</item>
+        <item>Hybridoma Technology</item>
+        <item>I C M</item>
+        <item>Inverted Microscope</item>
+        <item>Invitro Clonal Assay</item>
+        <item>James Thomson</item>
+        <item>Kohler And Milestein</item>
+        <item>Lipofection</item>
+        <item>Micro Carrier Beads</item>
+        <item>Monoclonal Antibodies / M A B S</item>
+        <item>Multipotent</item>
+        <item>Myeloma  </item>
+        <item>Osmolality</item>
+        <item>P G D F  </item>
+        <item>Pleuripotent</item>
+        <item>Polyclonal Antibodies </item>
+        <item>Primary Cell Culture  </item>
+        <item>Primary Cells </item>
+        <item>Recombinant Human Erythropoetin</item>
+        <item>Roller Bottles</item>
+        <item>Rous And Jones</item>
+        <item>Serum Free Medium</item>
+        <item>Spinner Cultures</item>
+        <item>Stem Cells</item>
+        <item>Therapeutic M A B S</item>
+        <item>Tissue Engineering</item>
+        <item>Totipotent </item>
+        <item>Uni Or Bi Potent</item>
+    </string-array>
+    <string-array name="pom">
+        <item>Coming Soon :)</item>
+    </string-array>
+
+    <string-array name="chem0">
+        <item>Amorphous Solids</item>
+        <item>Anisotropy</item>
+        <item>Antiferromagnetism</item>
+        <item>Body Centred Cube</item>
+        <item>Bravais Lattices</item>
+        <item>Close Packed Structures</item>
+        <item>Coordination Number</item>
+        <item>Crystal Defects</item>
+        <item>Crystal Lattice</item>
+        <item>Crystalline Solids</item>
+        <item>Diamagnetism</item>
+        <item>Diode</item>
+        <item>Dislocation Defect</item>
+        <item>Electron Hole</item>
+        <item>Electronic Defect</item>
+        <item>End Centred Unit</item>
+        <item>Face Centred Unit</item>
+        <item>Ferrimagnetism</item>
+        <item>Ferromagnetism</item>
+        <item>Frenkel Defect</item>
+        <item>Giant Molecules</item>
+        <item>Hydrogen Bonded Molecular Solids</item>
+        <item>Impurity Defect</item>
+        <item>Insulators</item>
+        <item>Interstitial Compounds</item>
+        <item>Interstitial Defect</item>
+        <item>Intrinsic Semiconductors</item>
+        <item>Ionic Solids</item>
+        <item>Long Range Order</item>
+        <item>Metal Excess Defect</item>
+        <item>Metallic Solids</item>
+        <item>Packing Efficiency</item>
+        <item>Paramagnetism</item>
+        <item>Point Defects</item>
+        <item>Polar Molecular Solids</item>
+        <item>Schottky Defect</item>
+        <item>Semi Conductors</item>
+        <item>Short Range Order</item>
+        <item>Stoichiometric Defect</item>
+        <item>Super Cooled Liquids</item>
+        <item>Tetrahedral Voids</item>
+        <item>Unit Cells</item>
+        <item>Vacancy Defect</item>
+        <item>Line Defects</item>
+        <item>Non Polar Molecular Solids</item>
+        <item>Octahedral Voids</item>
+        <item>Pseudo Solids</item>
+        <item>F Centres</item>
+
+
+
+    </string-array>
+
+
+</resources>

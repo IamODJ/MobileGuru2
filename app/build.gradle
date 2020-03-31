@@ -1,0 +1,39 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 28
+    buildToolsVersion "28.0.1"
+
+    defaultConfig {
+        applicationId "mobileguru.ganeshkhind.kvgk.mobileguru"
+        minSdkVersion 15
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0.0"
+    }
+    aaptOptions {
+        cruncherEnabled = false
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.androidadvance:topsnackbar:1.1.1'
+    compile project(':aars')
+    compile project(':models')
+    compile 'com.github.d-max:spots-dialog:0.7@aar'
+    compile 'com.daasuu:EasingInterpolator:1.0.0'
+    compile 'com.orhanobut:dialogplus:1.11@aar'
+    compile 'com.oguzdev:CircularFloatingActionMenu:1.0.2'
+    compile 'com.skyfishjy.ripplebackground:library:1.0.1'
+    compile 'com.android.support:appcompat-v7:27.1.1'
+    // https://mvnrepository.com/artifact/com.android.support/design
+    compile 'com.android.support:design:27.1.1'
+}

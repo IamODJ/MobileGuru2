@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="withText"
+        android:icon="@mipmap/menu"
+        app:showAsAction="always" >
+    <menu>
+
+        <item android:id="@+id/chem"
+            android:icon="@drawable/flask"
+            android:title="Chemistry" />
+
+        <item android:id="@+id/biotech"
+            android:icon="@drawable/bios"
+            android:title="Biotechnology" />
+
+    </menu>
+    </item>
+
+
+
+
+
+</menu>
